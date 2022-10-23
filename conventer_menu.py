@@ -28,5 +28,5 @@ class MainMenu(QMainWindow):
 
     def convert_and_save(self):
         os.chdir(f'{self.cmdpath}/')
-        os.system(f'pyuic5 -x {self.filename}.ui -o {self.filename}_design2.py')
-        os.system(f'MOVE {self.filename}_design2.py {self.savepath}')
+        os.system(f'pyuic5 -x {self.filename}.ui -o {self.filename}_design.py')
+        os.system(f'MOVE {self.filename}_design.py {self.savepath}')
