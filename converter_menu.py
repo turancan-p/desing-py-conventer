@@ -2,7 +2,7 @@ import os
 import json
 
 from PyQt5.QtWidgets import *
-from design.conventer_menu_design import Ui_MainWindow
+from design.converter_menu_design import Ui_MainWindow
 
 
 class MainMenu(QMainWindow):

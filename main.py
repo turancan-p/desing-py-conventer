@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication
-from conventer_menu import MainMenu
+from converter_menu import MainMenu
 
 app = QApplication([])
 
