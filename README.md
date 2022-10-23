@@ -1,2 +1,3 @@
-# desing-py-conventer
- ui to py conventer
+# Desing(.ui) to Python(.py) converter
+
+#### COMPLETED!
