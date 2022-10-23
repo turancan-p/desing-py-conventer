@@ -15,14 +15,18 @@ class MainMenu(QMainWindow):
         self.main_menu.convert_button.clicked.connect(self.convert_and_save)
 
     def select_ui(self):
-        filepath = QFileDialog.getOpenFileName(caption="Select UI File",
+        self.uipath = QFileDialog.getOpenFileName(caption="Select UI File",
                                                filter="UI File (*.ui)")
-        self.main_menu.ui_path_textbox.setText(filepath[0])
-        self.filename = os.path.basename(filepath[0]).split('.')[0]
+        self.main_menu.ui_path_textbox.setText(self.uipath[0])
+        self.filename = os.path.basename(self.uipath[0]).split('.')[0]
+
+        self.cmdpath = os.path.dirname(self.uipath[0])
 
     def select_save_file(self):
-        self.filepath = QFileDialog.getExistingDirectory(caption="Select Save Folder")
-        self.main_menu.py_path_textbox.setText(f'{self.filepath}/{self.filename}.py')
+        self.savepath = QFileDialog.getExistingDirectory(caption="Select Save Folder")
+        self.main_menu.py_path_textbox.setText(f'{self.savepath}/{self.filename}.py')
 
     def convert_and_save(self):
-        print(f'{self.filepath}/cmd.exe python -m PyQt5.uic.pyuic -x {self.filename}.ui -o {self.filename}.py')
+        os.chdir(f'{self.cmdpath}/')
+        os.system(f'pyuic5 -x {self.filename}.ui -o {self.filename}_design2.py')
+        os.system(f'MOVE {self.filename}_design2.py {self.savepath}')
