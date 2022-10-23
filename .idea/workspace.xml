@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c87f6e4-f0f2-433b-aaa8-1d6492433bf7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conventer_menu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter-v1/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/conventer_menu.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/conventer_menu_design.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
