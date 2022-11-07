@@ -9,6 +9,8 @@
 2. Click Select Save Path button and select where you want to save converted file
 3. Click Convert .ui to .py button
 ```
+![ui2py](https://user-images.githubusercontent.com/98945441/200411867-ad831a07-4ca1-4f99-91fe-7f974a9c3742.png)
+
 ### Note: Don't delete the settings.json file
 
 ### If you want to support me: [Click Here](https://www.buymeacoffee.com/turancan33)
