@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c87f6e4-f0f2-433b-aaa8-1d6492433bf7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/desing-py-conventer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/desing-py-conventer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/converter_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/converter_menu_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/converter_menu_design.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/TuranCan/Desktop/github projeleri/desing-py-converter"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TuranCan/Desktop/github_projeleri/desing-py-converter&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TuranCan\Desktop\github_projeleri\desing-py-converter" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="conventer_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="desing-py-conventer" />
