@@ -1,4 +1,4 @@
-from os import system, path, getcwd
+from os import system, path
 import json
 
 from PyQt5.QtWidgets import *
