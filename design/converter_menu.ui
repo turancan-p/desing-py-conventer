@@ -31,6 +31,10 @@
   <property name="windowTitle">
    <string>Conventer</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../image/icons.qrc">
+    <normaloff>:/icon/icon.jpg</normaloff>:/icon/icon.jpg</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -120,6 +124,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../image/icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

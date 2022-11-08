@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'converter_menu.ui'
+# Form implementation generated from reading ui file 'C:/Users/TuranCan/Desktop/github_projeleri/desing-py-converter/design/converter_menu.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.7
 #
@@ -21,6 +21,9 @@ class Ui_MainWindow(object):
         font.setFamily("Microsoft YaHei UI Light")
         font.setPointSize(10)
         MainWindow.setFont(font)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icon/icon.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -60,13 +63,4 @@ class Ui_MainWindow(object):
         self.select_ui_path_button.setText(_translate("MainWindow", "Select .ui Path"))
         self.select_py_path_button.setText(_translate("MainWindow", "Select Save Path"))
         self.convert_button.setText(_translate("MainWindow", "Convert .ui to .py"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+import image.icons_rc

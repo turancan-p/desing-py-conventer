@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c87f6e4-f0f2-433b-aaa8-1d6492433bf7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/desing-py-conventer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/desing-py-conventer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/converter_menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/design/converter_menu.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/converter_menu_design.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/converter_menu_design.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
